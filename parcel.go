@@ -1,8 +1,10 @@
 package main
 
+
 import (
 	"database/sql"
 )
+
 
 type ParcelStore struct {
 	db *sql.DB
